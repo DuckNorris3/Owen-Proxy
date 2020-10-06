@@ -1,4 +1,25 @@
-.bottom-two-container {
+#app-holder {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+}
+
+#photo-container {
+  width: 100%;
+}
+
+#bottom-services {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#campsite-host-info {
+  width: 60%;
+}
+
+#booking {
+  width: 40%;
+  position: relative;
+  top: -2em;
+  margin-right: 20em;
 }
