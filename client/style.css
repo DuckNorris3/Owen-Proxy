@@ -116,3 +116,26 @@ i.fa-search {
 .host-button:hover {
   background-color: #3dc69e;
 }
+
+.covid-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #44345c;
+  border: 2px solid #230047;
+  height: 50px;
+  margin: 0px 6px;
+}
+
+.covid-p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+.covid-p a {
+  text-decoration: none;
+  color: rgb(192, 192, 192);
+}
